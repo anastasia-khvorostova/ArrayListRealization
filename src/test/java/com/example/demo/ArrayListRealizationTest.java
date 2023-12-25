@@ -7,7 +7,6 @@ import java.util.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ArrayListRealizationTest {
-
     ArrayListRealization<String> list = new ArrayListRealization<>();
 
     @Test

@@ -4,7 +4,6 @@ import java.util.*;
 
 public class ArrayListRealization<T> extends AbstractList<T>
         implements List<T>, RandomAccess, Cloneable, java.io.Serializable {
-
     private int size = 0;
     private int capacity;
     private final int CAPACITY = 16;
